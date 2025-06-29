@@ -1,0 +1,6 @@
+{
+    "debug.hideSlowPreLaunchWarning": true,
+    "clangd.arguments": [
+        "--compile-commands-dir=d:\\cursussen\\IoT-Systems\\voorbereiding\\STM32F746G-DISCO-Blinky-uvision\\out\\STM32F746G-DISCO-Blinky-uvision\\Target_1"
+    ]
+}
