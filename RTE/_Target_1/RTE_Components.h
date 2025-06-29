@@ -18,6 +18,9 @@
 /* ARM::CMSIS-Compiler:STDOUT:Custom@1.1.0 */
 #define RTE_CMSIS_Compiler_STDOUT                /* CMSIS-Compiler STDOUT */
 #define RTE_CMSIS_Compiler_STDOUT_Custom         /* CMSIS-Compiler STDOUT: Custom */
+/* ARM::CMSIS-View:Event Recorder&DAP@1.6.0 */
+#define RTE_CMSIS_View_EventRecorder
+#define RTE_CMSIS_View_EventRecorder_DAP
 /* ARM::CMSIS:RTOS2:Keil RTX5&Source@5.9.0 */
 #define RTE_CMSIS_RTOS2                 /* CMSIS-RTOS2 */
 #define RTE_CMSIS_RTOS2_RTX5            /* CMSIS-RTOS2 Keil RTX5 */
@@ -44,9 +47,6 @@
 #define RTE_CMSIS_Driver_USART21        /* Driver USART21 (LPUART1) */
 #define RTE_CMSIS_Driver_USART22        /* Driver USART22 (LPUART2) */
 #define RTE_CMSIS_Driver_USART23        /* Driver USART23 (LPUART3) */
-/* Keil::CMSIS Driver:VIO:Board@2.0.2 */
-#define RTE_VIO_BOARD
-#define RTE_VIO_STM32F746G_DISCO
 /* Keil::Device:CubeMX@1.0.0 */
 #define RTE_DEVICE_CUBE_MX
 #define CMSIS_device_header "stm32f7xx.h"

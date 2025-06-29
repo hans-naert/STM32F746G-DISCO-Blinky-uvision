@@ -23,6 +23,7 @@
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 #include "cmsis_vio.h"
+#include "EventRecorder.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -199,8 +200,10 @@ int main(void)
   MX_USART6_UART_Init();
   MX_USB_OTG_FS_HCD_Init();
   /* USER CODE BEGIN 2 */
-
-  stdio_init();                         /* Initialize STDIO */
+	
+  EventRecorderInitialize (EventRecordAll, 1);
+	
+	stdio_init();                         /* Initialize STDIO */
 
   vioInit();                            /* Initialize Virtual I/O */
 
